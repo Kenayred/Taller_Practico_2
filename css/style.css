@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEDED;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+color1{background-color: #171717}
+color2{background-color:#444444}
+color3{background-color:#DA0037}
+color4{background-color:#EDEDED}
+
+
+
+/*Header*/
+header{
+    width: 100%;
+    height: 100px;
+}
+
+header img{
+    float: left;
+    width: 100px;
+}
+
+header ul{
+    list-style: none;  
+    background-color: #171717;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #EDEDED;
+    display: block;
+    padding: 39px;
+    transition: 2s;
+}
+
+header ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+/* header ul li:hover{
+    background-color: #DA0037;
+    color: white
+} */
+
+header ul li a:hover{
+    background-color: #DA0037;
+    color: #EDEDED;
+}
+
+/*BODY*/
+
+div.cuerpo{
+    display: flex;
+    height: 100vh;
+    margin: 10px;
+    width: 98%;
+    
+}
+
+div.cuerpo div.text img{
+    border-radius: 15px;
+    border-style: groove;
+}
+
+h1{
+    text-align: center;
+}
+
+legend{
+    margin-left: 15px
+}
+
+div.text{
+width: 50%;
+text-align: justify;
+margin: 30px
+}
+
+div.form{
+    margin: 20px;
+    text-align: left;
+}
+
+label{
+    margin: 10px;
+}
+
+div.form input.correo{
+    width: 200px;
+}
+
+div.form input.fecha{
+    width: 150px;
+}
+
+input{
+    margin: 3px;
+    margin-left: 20px
+}
+
+input.boton{
+    float: right;
+    margin: 13px;
+}
+
+div.form input{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+div.form input.gen{
+    width: 15px;
+}
+
+div.form input.texto{
+    border-radius: 15px;
+    width: 95%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+textarea{
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+select{
+    margin-left: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    display:flex;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    bottom: 0;
+}
+
+footer div.lista{
+    width: 40%;
+}
+
+footer div.lista ul {
+    list-style: none;
+}
+
+footer div.lista ul li{
+    display: inline-block;
+    margin-left: 20px
+}
+
+footer p{
+    text-align: left;
+    width: 50%;
+    margin-top: 1.2em
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width:320px){
+
+
+    div.cuerpo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div.texto{
+        width: 40%;
+    }
+
+    div.forms{
+        width: 60%;
+    }
+}
